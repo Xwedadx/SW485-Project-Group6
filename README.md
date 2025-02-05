@@ -13,20 +13,20 @@ Primary objectives include the following:
 2. Risk Factor Analysis: Understanding how different health parameters contribute to stroke occurrence.
 3. Machine Learning Applications: Training and evaluating classification models for stroke prediction.
 
-The Stroke Prediction Dataset, which is accessible on Kaggle, consists of 5,110 records with 11 attributes pertaining to patient demographics and medical data. Based on these input values, the dataset is intended to forecast the probability that a patient will have a stroke.
+The Stroke Prediction Dataset, which is accessible on Kaggle, consists of 5,110 records with 12 attributes pertaining to patient demographics and medical data. Based on these input values, the dataset is intended to forecast the probability that a patient will have a stroke.
 
-Information about Attributes:
-1. id: A special number assigned to every patient.
-The gender of the patient is indicated by the categorical variable "Male," "Female," or "Other."
-3. age: The patient's age expressed as a numerical value.
-4. Hypertension: This variable is binary, with 0 denoting that the patient has no hypertension and 1 denoting that they do.
-The binary variable heart_disease has a value of 1 if the patient has a heart disease and 0 if the patient has no heart disease.
-5. ever_married: A categorical variable that returns "No" or "Yes" depending on whether the patient has ever been married.
-6. work_type: A categorical variable that indicates whether the patient is self-employed, private, never-worked, "children," or "Govt_job."
-7. Residence_type: A categorical variable that indicates whether the patient lives in an urban or rural area.
-8. avg_glucose_level: A numerical value that indicates the patient's blood glucose average.
-9. BMI: The patient's body mass index, expressed as a numerical value.
-10. smoking_status: This variable is a categorical one that indicates whether the patient smokes or not. It can be "formerly smoked," "never smoked," "smokes," or "Unknown" (where "Unknown" indicates that the patient's information is unavailable).
-11. stroke: This is a binary target variable, with 1 denoting a stroke and 0 denoting no stroke.
-This dataset is useful for creating machine learning models that forecast the incidence of strokes based on a variety of demographic and health characteristics. Studies concentrating on predictive modeling and the identification of important risk factors for stroke have made use of it.
+Attribute Information:
+1. id: Unique identifier for each patient.
+2. gender: Categorical variable indicating the patient's gender: "Male", "Female", or "Other".
+3. age: Numerical value representing the patient's age.
+4. hypertension: Binary variable where 0 indicates the patient does not have hypertension, and 1 indicates the patient has hypertension.
+5. heart_disease: Binary variable where 0 indicates the patient does not have any heart diseases, and 1 indicates the patient has a heart disease.
+6. ever_married: Categorical variable indicating if the patient has ever been married: "No" or "Yes".
+7. work_type: Categorical variable describing the patient's type of work: "children", "Govt_job", "Never_worked", "Private", or "Self-employed".
+8. Residence_type: Categorical variable indicating the patient's place of residence: "Rural" or "Urban".
+9. avg_glucose_level: Numerical value representing the patient's average glucose level in the blood.
+10. bmi: Numerical value representing the patient's body mass index.
+11. smoking_status: Categorical variable indicating the patient's smoking status: "formerly smoked", "never smoked", "smokes", or "Unknown" (where "Unknown" means that the information is unavailable for this patient).
+12. stroke: Binary target variable where 1 indicates the patient had a stroke, and 0 indicates the patient did not have a stroke.
+This dataset is valuable for developing machine learning models aimed at predicting stroke occurrences based on various health and demographic factors. It has been utilized in studies focusing on predictive modeling and the identification of key risk factors for stroke.
 
