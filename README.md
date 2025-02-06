@@ -1,9 +1,9 @@
 # swe485
 group members:
-Reem Altamimi
-Wedad Alqahtani
-Noura Alshahrani
-Lina Alsuhaibani
+Reem Altamimi,
+Wedad Alqahtani,
+Noura Alshahrani,
+Lina Alsuhaibani,
 Maram Alamri
 
 -----------------
