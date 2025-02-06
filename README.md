@@ -37,13 +37,16 @@ dataset source link: https://www.kaggle.com/datasets/fedesoriano/stroke-predicti
 Process technique explanation:
 
 1)	Handling missing value in bmi column
+   
 df = df.copy()  
 df.loc[:, 'bmi'] = df['bmi'].fillna(df['bmi'].median())
+
 the goal:
 in bmi column there is missing value (NaN) and these missing values will affect the analysis results
 We will replace the missing values with median instead of mean because it is more stable when there are extreme values
 
-2)	Converting Categorical Variables to Numbers Using One-Hot Encoding
+3)	Converting Categorical Variables to Numbers Using One-Hot Encoding
+   
 categorical_cols = ['gender', 'ever_married', 'work_type', 'Residence_type', 'smoking_status']
 df_encoded = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
 
@@ -71,6 +74,7 @@ Why MinMaxScaler?
 •	It ensures that all variables have the same range, which helps models learn efficiently, especially when using neural networks and algorithms sensitive to different value scales.
 
 4)	Saving Processed Data
+   
 processed_file_path = "/content/drive/MyDrive/Dataset/processed_stroke_data.csv"
 df_encoded.to_csv(processed_file_path, index=False)
 print("Processed dataset saved at:", processed_file_path)
