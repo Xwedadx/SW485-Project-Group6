@@ -30,3 +30,4 @@ Attribute Information:
 12. stroke: Binary target variable where 1 indicates the patient had a stroke, and 0 indicates the patient did not have a stroke.
 This dataset is valuable for developing machine learning models aimed at predicting stroke occurrences based on various health and demographic factors. It has been utilized in studies focusing on predictive modeling and the identification of key risk factors for stroke.
 
+dataset source link: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data
