@@ -1,5 +1,12 @@
 # swe485
+group members:
+Reem Altamimi
+Wedad Alqahtani
+Noura Alshahrani
+Lina Alsuhaibani
+Maram Alamri
 
+-----------------
 Project Motivation:
 
 Stroke is among the major causes of deaths and long-term disabilities globally. Early risk prediction of stroke would greatly improve the outcomes in patients by allowing timely medical interventions. The motivation of this project is to use machine learning techniques in analyzing health-related factors and to predict the occurrence of a stroke. By working with this dataset, we try to develop a predictive model to assist healthcare professionals in identifying individuals at high risk.
