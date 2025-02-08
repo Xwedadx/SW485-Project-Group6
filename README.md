@@ -7,20 +7,22 @@ Lina Alsuhaibani,
 Maram Alamri
 
 -----------------
-Project Motivation:
+Motivation for the Project:
 
-Stroke is among the major causes of deaths and long-term disabilities globally. Early risk prediction of stroke would greatly improve the outcomes in patients by allowing timely medical interventions. The motivation of this project is to use machine learning techniques in analyzing health-related factors and to predict the occurrence of a stroke. By working with this dataset, we try to develop a predictive model to assist healthcare professionals in identifying individuals at high risk.
+Stroke is a long-standing cause of disability worldwide. According to the World Health Organization (WHO)It is the second leading cause of death, responsible for approximately 11% of global deaths. Early detection and preventive measures can significantly improve short-term patient outcomes
 
-The key goal of this dataset is to present stroke prediction abilities using health parameters. It offers machine learning models the ability to predict the   likelihood of a stroke based on input features like age, hypertension, heart disease, and smoker status.
+In this regard, this project aims at applying machine learning approaches to find out associated risk factors for stroke. This dataset contains promising patient specific factors such as age, sex, medical history, and the smoking states which are necessary for stroke risk assessment. Each record has a score above-average to advance health outcomes.
 
-Objective of Collecting This Dataset:
-This dataset has been gathered to support the research process involved in predictive health analytics. 
-Primary objectives include the following:
-1. Medical Decision Support: Helping doctors and healthcare professionals make data-driven decisions regarding stroke prevention.
-2. Risk Factor Analysis: Understanding how different health parameters contribute to stroke occurrence.
-3. Machine Learning Applications: Training and evaluating classification models for stroke prediction.
+The dataset is designed to evaluate the feasibility of stroke prediction using various health metrics. The research explores how accurately machine learning models can predict stroke likelihood based on factors like age, hypertension, heart disease, and smoking habits.
 
-The Stroke Prediction Dataset, which is accessible on Kaggle, consists of 5,110 records with 12 attributes pertaining to patient demographics and medical data. Based on these input values, the dataset is intended to forecast the probability that a patient will have a stroke.
+Objective of the Dataset Collection
+This dataset has been gathered to support research in predictive health analytics. The main objectives include:
+
+Medical Decision Support – Helping healthcare professionals take data-driven steps in stroke prevention.
+Risk Assessment – Identifying key health indicators linked to stroke.
+Machine Learning Applications – Developing and testing prediction models for better health insights.
+
+This dataset plays a crucial role in advancing AI-driven healthcare, with the potential to improve early diagnosis and prevention strategies.
 
 Attribute Information:
 1. id: Unique identifier for each patient.
